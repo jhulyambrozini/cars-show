@@ -43,14 +43,14 @@ body {
 }
 
 p {
-    color: $color-01;
+    color: $color-04;
     font-size: $font-normal;
     margin-bottom: $mb;
     text-align: $align;
 }
 
 h1 {
-    color: $color-01;
+    color: $color-04;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: $font-big;
     margin-top: $mt-02;
@@ -66,7 +66,44 @@ h3 {
     font-size: $font-normal;
 }
 
-header,
+nav {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid $color-04;
+    ul {
+        li {
+            display: inline;
+            a{
+                text-decoration: none;
+                color: $color-default;
+                font-size: $font-medium;
+                padding: 10px;
+            }
+            a:hover {
+                background-color: $color-04;
+                color: $bg-color;
+            }
+        }
+    }  
+}
+
+div#esquerda, div#direita{
+    display: block;
+    width: 50%;
+	float: left;
+	box-sizing: border-box;
+    padding: 20px;
+    border-top: $color-04 1px solid;
+    h2 {
+        padding-bottom: 10px;
+    }
+}
+
 footer {
-    background-color: $bg-color
+    background-color: $color-04;
+    float: left;
+    p {
+        color: $bg-color;
+        text-align: center;
+    }
 }

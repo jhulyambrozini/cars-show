@@ -14,69 +14,32 @@
 <body>
     <header>
         <div class="container">
-            <img src="./images/car-logo.png" alt="Parte da frente de um carro azul escuro, em baixo em caixa alta o nome 'topcars'.">
+            <img src="./images/topcars-logo.png" alt="Parte da frente de um carro azul escuro, em baixo em caixa alta o nome 'topcars'.">
         </div>
     </header>
     <nav>
         <div class="container">
             <ul>
                 <li><a href="#top">Home</a></li>
-                <li><a href="#slider">Destaques</a></li>
+                <li><a href="#destack">Destaque</a></li>
                 <li><a href="#pieces">Peças</a></li>
                 <li><a href="#contact">Contato</a></li>
-                <li><a href="#about">sobre</a></li>
+                <li><a href="#about">Sobre</a></li>
             </ul>
         </div>  
     </nav>
-    <section>
-        <div class="destack">
+    <section> 
+        <div id="destack">
             <div class="container">
-                <div id="slider">
-                    <ul>
-                        <li>
-                            <h1>Audi A5</h1>
-                            <input type="radio" id="slide-01" name="slide">
-                            <label for="slide-01"></label>
-                            <img src="./images/car-01.jpg" alt="">
-                            <p>Carro seminovo, 4 portas, completo com ar-condicionado, vidro e travas elelétricas.</p>
-                        </li>
-                        <li>
-                            <h1>Audi A5</h1>
-                            <input type="radio" id="slide-02" name="slide">
-                            <label for="slide-02"></label>
-                            <img src="./images/car-02.jpg" alt="">
-                            <p>Carro seminovo, 4 portas, completo com ar-condicionado, vidro e travas elelétricas.</p>
-                        </li>
-                        <li>
-                            <h1>Audi A5</h1>
-                            <input type="radio" id="slide-03" name="slide">
-                            <label for="slide-03"></label>
-                            <img src="./images/car-03.jpg" alt="">
-                            <p>Carro seminovo, 4 portas, completo com ar-condicionado, vidro e travas elelétricas.</p>
-                        </li>
-                        <li>
-                            <h1>Audi A5</h1>
-                            <input type="radio" id="slide-04" name="slide">
-                            <label for="slide-04"></label>
-                            <img src="./images/car-04.jpg" alt="">
-                            <p>Carro seminovo, 4 portas, completo com ar-condicionado, vidro e travas elelétricas.</p>
-                        </li>
-                        <li>
-                            <h1>Audi A5</h1>
-                            <input type="radio" id="slide-05" name="slide">
-                            <label for="slide-05"></label>
-                            <img src="./images/car-05.jpg" alt="">
-                            <p>Carro seminovo, 4 portas, completo com ar-condicionado, vidro e travas elelétricas.</p>
-                        </li>
-                    </ul>
-                </div>
-                
+                <h1>Bugatti La Voiture Noire</h1> <br>
+                <img src="./images/car-04.jpg" alt="Foto Audi por Mike em Pexels">
+                <p>Carro novo, 2 portas, completo. Exemplar único no mundo em leilão.</p> 
             </div>
         </div>
         <div class="container">
             <div id="pieces">
-                <div class="blocks cars">
-                    <h2>Ver Carros</h2>
+                <div class="blocks">
+                    <h2>Peças disponiveis para compra</h2>
                     <ul>
                         <li>
                             <div class="img-container">
@@ -100,37 +63,46 @@
                 </div>
             </div>
         </div>
-
-        <div id="contact">
-            <form action="" method="get">
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="name" id="name" placeholder="Nome completo">
+       
+        <div id="direita">
+            <div class="container">
+                <div id="contact">  
+                    <h2>Cadastre-se na newsletter</h2>
+                    <form action="" method="get">
+                        <div>
+                            <label for="name">Nome</label>
+                            <input type="name" id="name" placeholder="Nome completo">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="exemple@exemple.com">
+                        </div>
+                        <div>
+                            <label for="tel">Telefone</label>
+                            <input type="tel" id="tel" placeholder="(00) 00000-0000">
+                        </div>
+                        <div>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="exemple@exemple.com">
                 </div>
-                <div>
-                    <label for="tel">Telefone</label>
-                    <input type="tel" id="tel" placeholder="(00) 00000-0000">
-                </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
+            </div>
         </div>
-
-        <div id="about">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt tenetur laborum quos qui asperiores aut facilis minima quod suscipit incidunt excepturi molestias, error odit delectus, repudiandae eos dolorem rem dicta?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis illo! Voluptate doloribus totam facere assumenda consectetur similique vitae amet, a eveniet voluptas cum dicta ad, sed officia nihil. Perferendis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et id, eligendi deserunt distinctio magnam explicabo, ratione perspiciatis vitae suscipit repellendus cum. Minus hic non ipsa amet saepe assumenda quaerat.</p>
-        </div>
-            
+     
+       <div id="esquerda">
+            <div id="about">
+                <h2>Sobre nós</h2> 
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt tenetur laborum quos qui asperiores aut facilis minima quod suscipit incidunt excepturi molestias, error odit delectus, repudiandae eos dolorem rem dicta?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis illo! Voluptate doloribus totam facere assumenda consectetur similique vitae amet, a eveniet voluptas cum dicta ad, sed officia nihil. Perferendis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et id, eligendi deserunt distinctio magnam explicabo, ratione perspiciatis vitae suscipit repellendus cum. Minus hic non ipsa amet saepe assumenda quaerat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et id, eligendi deserunt distinctio magnam explicabo, ratione perspiciatis vitae suscipit repellendus cum. Minus hic non ipsa amet saepe assumenda quaerat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, praesentium numquam architecto, placeat porro quisquam minus molestias debitis aspernatur cum impedit molestiae necessitatibus accusantium ratione odio.</p>
+            </div>
+       </div>
     </section>
     <footer>
         <div class="container">
-            <p> &copy; Desenvolvido por Jhuly.</p>
+            <p> Todos os direitos reservados &copy; desenvolvido por Jhuly.</p>
         </div>
     </footer>
 </body>
