@@ -61,11 +61,6 @@ h2 {
     font-size: $font-medium;
 }
 
-h3 {
-    color: $color-03;
-    font-size: $font-normal;
-}
-
 nav {
     padding: 20px;
     text-align: center;
@@ -78,6 +73,7 @@ nav {
                 color: $color-default;
                 font-size: $font-medium;
                 padding: 10px;
+                border-radius: 5px;
             }
             a:hover {
                 background-color: $color-04;

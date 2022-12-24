@@ -1,5 +1,5 @@
-.blocks {
-    padding: 4rem 0 4rem 0;
+#blocks {
+    padding: 2rem 0 0 0;
 
     h2 {
         color: $color-04;
@@ -12,7 +12,7 @@
         font-size: $font-small;
         display: flex;
         justify-content: space-between;
-        height: 250px;
+        height: 100%;
         padding: 1rem 0;
         width: 100%;
     }
