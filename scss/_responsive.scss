@@ -2,34 +2,28 @@
 // Tablet
 @media (max-width: 769px) {
 
-    nav {
-        ul{
-            li{
-                a{
-                    font-size: 2rem;
-                }
-            }
+    .nav {
+        &__link{
+            font-size: 2rem;
         }
     }
-    #destack {
-        h1 {
+    .destack {
+        &__title {
             font-size: 2.5rem;
         }
-        p{
+        &__description{
             font-size: $font-small;
         }
     }
-    #blocks {
-        h2 {
+    .blocks {
+        &__title {
             font-size: $font-medium;
         }
-        li{
-            .img-container {
-                height: 130px;
-            }
-            a{
-                font-size: $font-normal;
-            }
+        &__img-container {
+            height: 130px;
+        }
+        &__button{
+            font-size: $font-normal;
         }
     }
     p {
@@ -40,54 +34,48 @@
 
 //mobile
 @media (max-width: 426px) {
-    nav {
-        ul{
-            li{
-                a{
-                    font-size: 1.6rem;
-                }
-            }
+    .nav {
+        &__link{
+            font-size: 1.6rem;
         }
     }
-    #destack {
-        h1 {
+    .destack {
+        &__title {
             font-size: 2rem;
         }
-        p{
+        &__description{
             margin-bottom: 0;
             line-height: 2rem;
         }
     }
-    #blocks {
-        h2 {
+    .blocks {
+        &__title {
             font-size: 2rem;
         }
-        ul {
+        &__list {
             display: inline;
-            li{
-                width: 90%;
-                .img-container {
-                    height: 130px;
-                }
-                a{
-                    font-size: $font-normal;
-                }
-            }
-        } 
+        }
+        &__item{
+            width: 90%;
+        }
+        &__img-container {
+            height: 130px;
+        }
+        &__button{
+            font-size: $font-normal;
+        }
     }
     div#esquerda, div#direita{
         width: 100%;
         height: auto;
     }
-    #contact {
-        form {
-            button {
-                font-size: 1.5rem;
-            }
+    .contact {
+        &__button {
+            font-size: 1.5rem;
         }
     }
-    #about {
-        p {
+    .about {
+        &__description {
             line-height: 2rem;
         }
     }

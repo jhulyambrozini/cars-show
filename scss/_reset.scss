@@ -61,26 +61,24 @@ h2 {
     font-size: $font-medium;
 }
 
-nav {
+.nav {
     padding: 20px;
     text-align: center;
     border-top: 1px solid $color-04;
-    ul {
-        li {
-            display: inline;
-            a{
-                text-decoration: none;
-                color: $color-default;
-                font-size: $font-medium;
-                padding: 10px;
-                border-radius: 5px;
-            }
-            a:hover {
-                background-color: $color-04;
-                color: $bg-color;
-            }
+    &__item {
+        display: inline;
+    }
+    &__link{
+        text-decoration: none;
+        color: $color-default;
+        font-size: $font-medium;
+        padding: 10px;
+        border-radius: 5px;
+        &:hover {
+            background-color: $color-04;
+            color: $bg-color;
         }
-    }  
+    }
 }
 
 div#esquerda, div#direita{
@@ -95,10 +93,10 @@ div#esquerda, div#direita{
     }
 }
 
-footer {
+.footer {
     background-color: $color-04;
     float: left;
-    p {
+    &__description {
         color: $bg-color;
         text-align: center;
     }

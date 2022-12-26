@@ -1,13 +1,13 @@
-#blocks {
+.blocks {
     padding: 2rem 0 0 0;
 
-    h2 {
+    &__title {
         color: $color-04;
         text-align: center;
         font-size: $font-large;
     }
 
-    ul {
+    &__list {
         list-style-type: none;
         font-size: $font-small;
         display: flex;
@@ -17,30 +17,30 @@
         width: 100%;
     }
 
-    li {
+    &__item {
         color: $color-02;
         display: block;
         margin: $space-default auto;
         width: 30%;
-        
-        .img-container {
-            display: block;
-            height: 200px;
-            overflow: hidden;
-            width: auto;
-        }
+    }
+    
+    &__img-container {
+        display: block;
+        height: 200px;
+        overflow: hidden;
+        width: auto;
+    }
 
-        a {
-            background-color: $color-04;
-            border-radius: 5px;
-            color: white;
-            display: block;
-            font-size: $font-medium;
-            margin: $mt auto $mb;
-            padding: 10px;
-            text-align: center;
-            text-decoration: none;
-        }
+    &__button {
+        background-color: $color-04;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        font-size: $font-medium;
+        margin: $mt auto $mb;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
     }
 
 }

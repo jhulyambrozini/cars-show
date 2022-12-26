@@ -1,11 +1,10 @@
-#about {
-   
+.about {
     
-    h2{
+    &__title{
         font-size: $font-medium;
         color: $color-04;
     }
-    p {
+    &__description {
         letter-spacing: 0.6px;
         color: $color-04;
         text-align: justify;

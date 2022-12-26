@@ -17,45 +17,45 @@
             <img src="./images/topcars-logo.png" alt="Parte da frente de um carro azul escuro, em baixo em caixa alta o nome 'topcars'.">
         </div>
     </header>
-    <nav>
+    <nav class="nav">
         <div class="container">
-            <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#blocks">Peças</a></li>
-                <li><a href="#contact">Contato</a></li>
-                <li><a href="#about">Sobre</a></li>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#top">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#blocks">Peças</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contato</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">Sobre</a></li>
             </ul>
         </div>  
     </nav>
     <section> 
-        <div id="destack">
+        <div id="destack" class="destack">
             <div class="container">
-                <h1>Bugatti La Voiture Noire</h1> <br>
-                <img src="./images/car-01.jpg" alt="Foto Audi por Mike em Pexels">
-                <p>Carro novo, 2 portas, completo. Exemplar único no mundo em leilão.</p> 
+                <h1 class="destack__title">Bugatti La Voiture Noire</h1> <br>
+                <img class="destack__image" src="./images/car-01.jpg" alt="Foto Audi por Mike em Pexels">
+                <p class="destack__description">Carro novo, 2 portas, completo. Exemplar único no mundo em leilão.</p> 
             </div>
         </div>
         <div class="container">
-                <div id="blocks">
-                    <h2>Peças disponíveis para compra</h2>
-                    <ul>
-                        <li>
-                            <div class="img-container">
+                <div id="blocks" class="blocks">
+                    <h2 class="blocks__title">Peças disponíveis para compra</h2>
+                    <ul class="blocks__list">
+                        <li class="blocks__item">
+                            <div class=" blocks blocks__img-container">
                                 <img src="./images/piece-01.jpg" alt="Foto Mike em Pexels">
                             </div> 
-                            <a href="#01">Ver mais</a>
+                            <a class="blocks__button" href="#01">Ver mais</a>
                         </li>
-                        <li>
-                            <div class="img-container">
+                        <li class="blocks__item">
+                            <div class="blocks blocks__img-container">
                                 <img src="./images/piece-02.jpg" alt="Foto Pixabay Pixels">
                             </div>
-                            <a href="#02">Ver mais</a>
+                            <a class="blocks__button" href="#02">Ver mais</a>
                         </li>
-                        <li>
-                            <div class="img-container">
+                        <li class="blocks__item">
+                            <div class="blocks blocks__img-container">
                                 <img src="./images/piece-03.jpg" alt="Foto Pexels Torsten">
                             </div> 
-                            <a href="#03"> Ver mais</a>
+                            <a class="blocks__button" href="#03"> Ver mais</a>
                         </li>
                     </ul>
                 </div>
@@ -63,23 +63,23 @@
        
         <div id="direita">
             <div class="container">
-                <div id="contact">  
-                    <h2>Cadastre-se na newsletter</h2>
-                    <form action="" method="get">
+                <div id="contact" class="contact">  
+                    <h2 class="contact__title">Cadastre-se na newsletter</h2>
+                    <form action="" method="get" class="contact__form">
                         <div>
-                            <label for="name">Nome</label>
-                            <input type="name" id="name" placeholder="Nome completo" required>
+                            <label for="name" class="contact__label">Nome</label>
+                            <input type="name" id="name" placeholder="Nome completo" class="contact__input" required>
                         </div>
                         <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="exemple@exemple.com" required>
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" id="email" placeholder="exemple@exemple.com" class="contact__input" required>
                         </div>
                         <div>
-                            <label for="tel">Telefone</label>
-                            <input type="tel" id="tel" placeholder="(00) 00000-0000">
+                            <label for="tel" class="contact__label">Telefone</label>
+                            <input type="tel" id="tel" placeholder="(00) 00000-0000" class="contact__input">
                         </div>
                         <div>
-                            <button type="submit">Enviar</button>
+                            <button type="submit" class="contact__button">Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -88,17 +88,18 @@
         </div>
      
        <div id="esquerda">
-            <div id="about">
-                <h2>Sobre nós</h2> 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt tenetur laborum quos qui asperiores aut facilis minima quod suscipit incidunt excepturi molestias, error odit delectus, repudiandae eos dolorem rem dicta?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis illo! Voluptate doloribus totam facere assumenda consectetur similique vitae amet, a eveniet voluptas cum dicta ad, sed officia nihil. Perferendis?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et id, eligendi deserunt distinctio magnam explicabo, ratione perspiciatis vitae suscipit repellendus cum. Minus hic non ipsa amet saepe assumenda quaerat.</p>
+            <div id="about" class="about">
+                <h2 class="about__title">Sobre nós</h2> 
+                <p class="about__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt tenetur laborum quos qui asperiores aut facilis minima quod suscipit incidunt excepturi molestias, error odit delectus, repudiandae eos dolorem rem dicta?</p>
+                <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quis illo! Voluptate doloribus totam facere assumenda consectetur similique vitae amet, a eveniet voluptas cum dicta ad, sed officia nihil. Perferendis?</p>
+                <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et id, eligendi deserunt distinctio magnam explicabo, ratione perspiciatis vitae suscipit repellendus cum. Minus hic non ipsa amet saepe assumenda quaerat.</p>
             </div>
        </div>
     </section>
-    <footer>
+    
+    <footer class="footer">
         <div class="container">
-            <p> Todos os direitos reservados &copy; desenvolvido por Jhuly.</p>
+            <p class="footer__description"> Todos os direitos reservados &copy; desenvolvido por Jhuly.</p>
         </div>
     </footer>
 </body>
